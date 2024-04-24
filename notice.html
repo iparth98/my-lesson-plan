@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap css -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/714cc7c02c.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Arapey&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/home_style.css" />
+    <title>portfolio</title>
+    <style>
+      body {
+        background-color: #fafafa;
+      }
+      
+      .chat-message {
+        padding: 10px 20px 0px 0px;
+        margin-left: -0px;
+        background-color: #fafafa;
+      }
+      
+      .chat {
+        list-style: none;
+        margin: 0;
+        background-color: #fafafa;
+      }
+      
+      .chat li img {
+        width: 45px;
+        height: 45px;
+        border-radius: 50em;
+        -moz-border-radius: 50em;
+        -webkit-border-radius: 50em;
+      }
+      
+      small {
+        font-size: 15px;
+      }
+      
+      img {
+        max-width: 100%;
+      }
+      
+      .chat-body {
+        padding-bottom: 20px;
+      }
+      
+      .chat li.left .chat-body {
+        margin-left: 0px;
+        background-color: #fff;
+      }
+      
+      .chat li .chat-body {
+        position: relative;
+        font-size: 11px;
+        padding: 10px;
+        border: 1px solid #f1f5fc;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+        -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+        -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+      }
+      
+      .chat li .chat-body .header {
+        padding-bottom: 5px;
+        border-bottom: 1px solid #f1f5fc;
+        background-color: white;
+      }
+      
+      /* .chat li .chat-body p {
+        margin: 0;
+      } */
+      
+      .chat li.left .chat-body:before {
+        position: absolute;
+        top: 10px;
+        left: -8px;
+        display: inline-block;
+        background: #fff;
+        width: 16px;
+        height: 16px;
+        border-top: 1px solid #f1f5fc;
+        border-left: 1px solid #f1f5fc;
+        content: '';
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+      }
+      
+      .chat li.right .chat-body:before {
+        position: absolute;
+        top: 10px;
+        right: -8px;
+        display: inline-block;
+        background: #fff;
+        width: 16px;
+        height: 16px;
+        border-top: 1px solid #f1f5fc;
+        border-right: 1px solid #f1f5fc;
+        content: '';
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+      }
+      
+      .chat li {
+        margin: 10px 0;
+      }
+      
+      .chat li.right .chat-body {
+        margin-right: 50px;
+        background-color: #fff;
+      }
+      
+      .primary-font {
+        color: #3c8dbc;
+        font-size: 15px;
+      }
+      
+      a:hover,
+      a:active,
+      a:focus {
+        text-decoration: none;
+        outline: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark bg-success">
+      <div class="navbar-brand">
+        <img
+          src="images/education-logo.jpg"
+          width="40"
+          height="40"
+          class="d-inline-block align-top"
+          alt="Logo"
+          loading="lazy"
+        />
+      </div>
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">My School </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- breadcrumb -->
+    <ol class="breadcrumb" style="font-size: 18px;">
+      <li class="breadcrumb-item ml-4">
+          <a class="black-text" href="home.html" style="color: black;"><i class="fa fa-home"
+                  aria-hidden="true"></i>&nbsp; Grade 4</a>
+      </li>
+      <li class="breadcrumb-item ml-4">
+        <a class="black-text" href="home.html" style="color: black;"><i class="fa fa-home"
+                aria-hidden="true"></i>&nbsp; Announcements</a>
+    </li>
+  </ol>
+  <!-- main section -->
+  <div class="container">
+    <div class="container">
+      <div class="row">
+          <!--=========================================================-->
+          <!-- selected chat -->
+          <div class="col-md-9 col-lg-8 mx-auto" style="background-color: #fafafa;">
+              <div class="chat-message">
+                  <ul class="chat">
+                      <li class="left clearfix">
+                          <div class="chat-body clearfix mb-3">
+                              <div class="header">
+                                  <strong class="primary-font">Admin</strong>
+                                  <small class="pull-right text-muted"><i
+                                          class="fa fa-clock-o"></i>&nbsp;6:00 PM 24 Apr, 2024
+                                  </small>
+                              </div>
+                              <h5 style="
+                        font-family: Roboto, Helvetica Neue, Arial, sans-serif;
+                        font-size: 1rem;
+                        font-weight: 400;
+                        line-height: 1.5;
+                      ">
+                                  Welcome to the Grade 4!
+                              </h5>
+                          </div>
+  
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+   
+  </div>
+    <!-- Bootstrap javascript -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</html>
